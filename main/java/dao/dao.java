@@ -1,4 +1,7 @@
 package dao;
 import model.noteModel;
-public class dao {
+import java.util.*;
+
+public interface dao {
+    void save(noteModel note);
 }
